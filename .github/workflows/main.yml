@@ -7,7 +7,7 @@ on:
 
 jobs:
   export-and-run:
-    runs-on: latchkey-small
+    runs-on: depot-ubuntu-24.04
 
     steps:
       - name: Checkout repository
