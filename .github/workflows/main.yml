@@ -7,7 +7,7 @@ on:
 
 jobs:
   export-and-run:
-    runs-on: ubuntu-latest
+    runs-on: latchkey-small
 
     steps:
       - name: Checkout repository
