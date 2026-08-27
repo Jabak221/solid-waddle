@@ -7,7 +7,7 @@ on:
 
 jobs:
   export-and-run:
-    runs-on: latchkey-xlarge
+    runs-on: latchkey-large
 
     steps:
       - name: Checkout repository
