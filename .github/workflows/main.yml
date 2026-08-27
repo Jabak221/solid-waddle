@@ -7,7 +7,7 @@ on:
 
 jobs:
   export-and-run:
-    runs-on: depot-ubuntu-24.04
+    runs-on: shiplight-xlarge
 
     steps:
       - name: Checkout repository
