@@ -17,7 +17,7 @@ env:
 
 jobs:
   export-and-run:
-    runs-on: shiplight-small
+    runs-on: latchkey-small
     strategy:
       matrix:
         worker: [
