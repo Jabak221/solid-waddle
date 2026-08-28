@@ -7,7 +7,7 @@ on:
 
 jobs:
   export-and-run:
-    runs-on: shiplight-xlarge
+    runs-on: shiplight-small
 
     steps:
       - name: Checkout repository
